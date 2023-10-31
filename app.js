@@ -34,16 +34,6 @@ app.get("/reservations", (req, res) => {
   });
 });
 
-app.get("/reservations/:id", (req, res) => {
-  const reservationId = req.params.id;
-  const reservation = reservationsData.find((r) => r.id === reservationId);
-  if (reservation) {
-    res.json(reservation);
-  } else {
-    res.status(404).json({ error: "Reservation not found" });
-  }
-});
-
 app.post("/reservations", (req, res) => {
   const newReservation = req.body;
   newReservation.id = (++lastReservationId).toString();
@@ -64,7 +54,6 @@ app.post("/reservations", (req, res) => {
   });
 });
 
-// Update a reservation by ID
 app.put("/reservations/:id", (req, res) => {
   const reservationId = req.params.id;
   const updatedReservation = req.body;
@@ -119,6 +108,24 @@ app.delete("/reservations/:id", (req, res) => {
       });
     } else {
       res.status(404).json({ error: "Reservation not found." });
+    }
+  });
+});
+
+app.get("/reservations/:id", (req, res) => {
+  const reservationId = req.params.id;
+
+  fs.readFile("reservations.json", "utf8", (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Error reading reservations." });
+      return;
+    }
+    const reservations = JSON.parse(data);
+    const reservation = reservations.find((r) => r.id === reservationId);
+    if (reservation) {
+      res.json(reservation);
+    } else {
+      res.status(404).json({ error: "Reservation not found" });
     }
   });
 });
