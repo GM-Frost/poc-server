@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
@@ -6,6 +7,8 @@ const uuid = require("uuid");
 
 app.use(express.json());
 app.use(cors());
+
+const port = process.env.SERVER_PORT || 8000;
 
 //Reservation ID increment
 const reservationsData = JSON.parse(
@@ -120,4 +123,4 @@ app.delete("/reservations/:id", (req, res) => {
   });
 });
 
-app.listen(8000, () => console.log("Server is running on port 8000"));
+app.listen(port, () => console.log(`Server is running on port ${port}`));
