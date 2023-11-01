@@ -1,1 +1,232 @@
-[]
+[
+    {
+      "stay": {
+        "arrivalDate": "2023-10-27",
+        "departureDate": "2023-10-01"
+      },
+      "room": {
+        "roomSize": "Standard Room",
+        "roomQuantity": 4
+      },
+      "firstName": "Nayan",
+      "lastName": "Bastola",
+      "email": "nayanbastola111@gmail.com",
+      "phone": "+1584536988",
+      "addressStreet": {
+        "streetName": "New Street",
+        "streetNumber": "1234"
+      },
+      "addressLocation": {
+        "zipCode": "M3C 0C1",
+        "state": "Ontario",
+        "city": "Ontario"
+      },
+      "extras": [
+        "extraBreakfast",
+        "extraWiFi"
+      ],
+      "payment": "Paypal",
+      "note": "lab test",
+      "tags": [
+        "hotel",
+        "booking",
+        "asdf"
+      ],
+      "reminder": false,
+      "newsletter": false,
+      "confirm": true,
+      "id": 1
+    },
+    {
+      "stay": {
+        "arrivalDate": "2023-10-15",
+        "departureDate": "2023-10-22"
+      },
+      "room": {
+        "roomSize": "Executive Suite",
+        "roomQuantity": 2
+      },
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "+1234567890",
+      "addressStreet": {
+        "streetName": "Elm Street",
+        "streetNumber": "567"
+      },
+      "addressLocation": {
+        "zipCode": "90210",
+        "state": "California",
+        "city": "Los Angeles"
+      },
+      "extras": [
+        "extraBreakfast",
+        "extraTV",
+        "extraParking"
+      ],
+      "payment": "Credit Card",
+      "note": "Quiet room, please",
+      "tags": [
+        "Vacation",
+        "Relaxation",
+        "new"
+      ],
+      "reminder": true,
+      "newsletter": true,
+      "confirm": true,
+      "id": 2
+    },
+    {
+      "stay": {
+        "arrivalDate": "2023-11-01",
+        "departureDate": "2023-11-07"
+      },
+      "room": {
+        "roomSize": "Luxury Villa",
+        "roomQuantity": 1
+      },
+      "firstName": "Michael",
+      "lastName": "Smith",
+      "email": "michael.smith@example.com",
+      "phone": "+9876543210",
+      "addressStreet": {
+        "streetName": "Maple Avenue",
+        "streetNumber": "789"
+      },
+      "addressLocation": {
+        "zipCode": "60601",
+        "state": "Illinois",
+        "city": "Chicago"
+      },
+      "extras": [
+        "extraBreakfast",
+        "extraWiFi",
+        "extraParking"
+      ],
+      "payment": "Bitcoin",
+      "note": "Celebrating anniversary",
+      "tags": [
+        "Anniversary",
+        "Romantic"
+      ],
+      "reminder": false,
+      "newsletter": false,
+      "confirm": true,
+      "id": 3
+    },
+    {
+      "stay": {
+        "arrivalDate": "2023-11-10",
+        "departureDate": "2023-11-15"
+      },
+      "room": {
+        "roomSize": "Deluxe King Room",
+        "roomQuantity": 3
+      },
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "email": "emily.wilson@example.com",
+      "phone": "+1234567890",
+      "addressStreet": {
+        "streetName": "Cedar Lane",
+        "streetNumber": "456"
+      },
+      "addressLocation": {
+        "zipCode": "30301",
+        "state": "Georgia",
+        "city": "Atlanta"
+      },
+      "extras": [
+        "Gym Access",
+        "Late Checkout"
+      ],
+      "payment": "Credit Card",
+      "note": "Early check-in requested",
+      "tags": [
+        "Business Trip",
+        "Atlanta"
+      ],
+      "reminder": true,
+      "newsletter": false,
+      "confirm": true,
+      "id": 4
+    },
+    {
+      "stay": {
+        "arrivalDate": "2023-11-25",
+        "departureDate": "2023-11-29"
+      },
+      "room": {
+        "roomSize": "Family Suite",
+        "roomQuantity": 2
+      },
+      "firstName": "David",
+      "lastName": "Brown",
+      "email": "david.brown@example.com",
+      "phone": "+9876543210",
+      "addressStreet": {
+        "streetName": "Oak Road",
+        "streetNumber": "123"
+      },
+      "addressLocation": {
+        "zipCode": "75201",
+        "state": "Texas",
+        "city": "Dallas"
+      },
+      "extras": [
+        "Kids' Playroom",
+        "Complimentary Breakfast"
+      ],
+      "payment": "Bitcoin",
+      "note": "High floor with a view",
+      "tags": [
+        "Family Vacation",
+        "Dallas Trip"
+      ],
+      "reminder": true,
+      "newsletter": true,
+      "confirm": true,
+      "id": 5
+    },
+    {
+      "stay": {
+        "arrivalDate": "2021-11-18",
+        "departureDate": "2021-11-25"
+      },
+      "room": {
+        "roomSize": "business-suite",
+        "roomQuantity": 3
+      },
+      "firstName": "IDM",
+      "lastName": "ENG",
+      "email": "idm.test@idm.com",
+      "phone": "9999999999",
+      "addressStreet": {
+        "streetName": "IDM Street",
+        "streetNumber": "1234"
+      },
+      "addressLocation": {
+        "zipCode": "123456",
+        "state": "Arizona",
+        "city": "OAKVILLE"
+      },
+      "extras": [
+        "extraBreakfast",
+        "extraTV",
+        "extraWiFi",
+        "extraParking",
+        "extraBalcony"
+      ],
+      "payment": "Credit Card",
+      "note": "idm lab test",
+      "tags": [
+        "hotel",
+        "booking",
+        "labtest"
+      ],
+      "reminder": true,
+      "newsletter": true,
+      "confirm": true,
+      "id": 6
+    }
+  ]
