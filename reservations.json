@@ -35,7 +35,7 @@
       "reminder": false,
       "newsletter": false,
       "confirm": true,
-      "id": 1
+      "id": "1"
     },
     {
       "stay": {
@@ -74,7 +74,7 @@
       "reminder": true,
       "newsletter": true,
       "confirm": true,
-      "id": 2
+       "id": "2"
     },
     {
       "stay": {
@@ -112,7 +112,7 @@
       "reminder": false,
       "newsletter": false,
       "confirm": true,
-      "id": 3
+         "id": "3"
     },
     {
       "stay": {
@@ -149,7 +149,7 @@
       "reminder": true,
       "newsletter": false,
       "confirm": true,
-      "id": 4
+        "id": "4"
     },
     {
       "stay": {
@@ -186,7 +186,7 @@
       "reminder": true,
       "newsletter": true,
       "confirm": true,
-      "id": 5
+         "id": "5"
     },
     {
       "stay": {
@@ -227,6 +227,6 @@
       "reminder": true,
       "newsletter": true,
       "confirm": true,
-      "id": 6
+         "id": "6"
     }
   ]
